@@ -10,15 +10,15 @@ public class FacturasQueenPapa{
 
 
 public static void main(String[] args) {
-int cant;
+int can;
 double preImp;
 double imp;
 double totPre;
 
 	Scanner und = new Scanner(System.in);
 	System.out.println("Hola! Por favor, ingresa la cantidad de QueenSalchi que deseas adquirir");
-	cant=und.nextInt();
-	preImp=cant*65000;
+	can=und.nextInt();
+	preImp=can*65000;
 	imp=preImp*0.08;
 	totPre=preImp+imp;
 	System.out.println("Queen Papa");
@@ -30,5 +30,5 @@ double totPre;
 	System.out.println("¡Gracias por preferirnos!");
 
 }
-
+//modificando
 }
